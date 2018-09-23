@@ -1,0 +1,160 @@
+/* Neil Sefah 
+
+Neil Sefah
+
+
+*/
+body{
+    color:#404040; 
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif; 
+    background-color: antiquewhite;
+    font-size: 11pt;
+    align-content: center;
+    text-align: center;
+}
+
+footer{
+    background-color: burlywood;
+}
+nav{
+    background-color: burlywood;
+}
+h1 {
+    color:#A4A400; 
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    background:#F0F0F0;
+    text-decoration: underline;
+    font-size: 22pt;
+    align-content: center;
+    text-align: center;
+}
+h2 {
+    color:#A4A400; 
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    background:#F0F0F0;
+    text-decoration: underline;
+    align-content: center;
+    font-size: 18pt;
+    text-align: center;
+}
+/*
+a{
+    color:#A4A400;
+}
+*/
+
+/* unvisited link */
+a:link {
+    color: #A4A400;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: red;
+    text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+    color: chartreuse;
+    text-decoration: none;
+    font-weight: bold
+}
+
+a:active {
+    text-decoration: none;
+}
+
+label{
+    font-weight: bold;
+}
+ul{
+    list-style: square inside url("pie-icon.gif");
+    list-style-type: upper-roman;
+    
+}
+p2{
+    color:#404040; 
+    font-family: "Georgia", "Garamond", serif; 
+    background:yellow;
+}
+#block {
+    line-height: 
+}/*spacing*/
+blockquote {
+    background: #FFFFA8;
+    font-style: italic;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other for html */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color:#aaa;
+    height: 300px; 
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.carousel-item > .item > img {
+  width:640px;
+  height:360px;
+}

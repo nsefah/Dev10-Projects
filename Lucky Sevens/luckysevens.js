@@ -39,16 +39,16 @@ do{
 			//win case
 			if (dice == 7){ //if dice equals seven
 			money = money+win; //add 4 to pot
-			var last_element = moneyPot[moneyPot.length -1]; //get value of final element of the moneyPot array, use to show the current money held by player
-			var newCount = last_element + win; //adds $4 to roll wins
+			var final_elem = moneyPot[moneyPot.length -1]; //get value of final element of the moneyPot array, use to show the current money held by player
+			var newCount = final_elem + win; //adds $4 to roll wins
 			moneyPot.push(newCount);
 
 			//lose case 
 			}else {
 			money--;
 			failedRolls++;
-			var last_element = moneyPot[moneyPot.length -1];
-			var newCount = last_element - loss;
+			var final_elem = moneyPot[moneyPot.length -1];
+			var newCount = final_elem - loss;
 			moneyPot.push(newCount);
 			rollsTotal = rollsTotal++;
 			}
